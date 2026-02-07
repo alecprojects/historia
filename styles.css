@@ -5,3 +5,43 @@ body {
     background-size: cover;
     background-color: #111;
 }
+.contenedor {
+background-color: rgba(255, 255, 255, 0.253);
+ margin-top: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ backdrop-filter: blur(10px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ padding: 40px;
+ border-radius: 15px;
+ text-align: center;
+ box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+ width: 250px;
+ height: 720px;
+}
+.contenedor h1 { 
+ color: white;
+ font-size: 1.2em;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.volver {
+color: rgb(255, 255, 255);
+ text-justify: center;
+ background-color: rgba(255, 255, 255, 0);
+ backdrop-filter: blur(50px);
+ border-radius: 5px;
+ font-size: 1.2em;
+ align-items: flex-end;
+ display: flex;
+ margin-top: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.volver a {
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0.075);
+text-align: center right;
+font-size: 1.0em;
+}
